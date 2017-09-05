@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Sep 05 10:23:34 CST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015e-4fd9-995b-000000bbbbd0 
+on database directory memory:C:\Users\tw1093\Documents\workspace-sts-3.9.0.RELEASE\course-api-data\testdb with class loader sun.misc.Launcher$AppClassLoader@4c12b6 
+Loaded from file:/C:/Users/tw1093/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_111-b14
+user.dir=C:\Users\tw1093\Documents\workspace-sts-3.9.0.RELEASE\course-api-data
+os.name=Windows 7
+os.arch=x86
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
