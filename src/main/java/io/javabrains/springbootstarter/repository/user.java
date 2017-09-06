@@ -47,7 +47,7 @@ public class user {
 	@Override
 	public String toString() {
 		return "User{"+
-				", name=N'" + name + '\''+
+				", name='" + name + '\''+
 				", age=" + age +
 				'}';
 	}

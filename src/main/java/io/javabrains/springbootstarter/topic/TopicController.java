@@ -20,7 +20,7 @@ public class TopicController {
 	public List<Topic> getAllTopics() {
 		return topicService.getAllTopics();
 		
-		/*
+		/* 預先塞入資料的作法
 		 return Arrays.asList(
 		 	new Topic("spring", "spring framework", "spring framework description"),
 		 	new Topic("java", "java sdk", "java sdk description"),
@@ -41,7 +41,7 @@ public class TopicController {
 	
 	@RequestMapping(method=RequestMethod.PUT, value="/topics/{id}")
 	public void updateTopic(@RequestBody Topic topic, @PathVariable String id) {
-		topicService.updateTopic(id, topic);
+		topicService.updateTopic(topic);
 	}
 	
 	@RequestMapping(method=RequestMethod.DELETE, value="/topics/{id}")

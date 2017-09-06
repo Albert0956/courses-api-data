@@ -9,16 +9,18 @@ public class Topic {
 	@Id
 	private String id;
 	private String name;
+	private Integer days;
 	private String description;
 	
 	public Topic() {
 
 	}	
 	
-	public Topic(String id, String name, String description) {
+	public Topic(String id, String name, Integer days, String description) {
 		super();
 		this.id = id;
 		this.name = name;
+		this.days = days;
 		this.description = description;
 	}
 	
@@ -39,6 +41,14 @@ public class Topic {
 	}
 	public void setDescription(String description) {
 		this.description = description;
+	}
+
+	public Integer getdays() {
+		return days;
+	}
+
+	public void setAge(Integer days) {
+		this.days = days;
 	}
 
 	

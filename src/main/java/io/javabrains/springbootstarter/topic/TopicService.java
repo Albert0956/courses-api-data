@@ -38,7 +38,7 @@ public class TopicService {
 		topicRepository.save(topic);
 	}
 
-	public void updateTopic(String id, Topic topic) {
+	public void updateTopic(Topic topic) {
 		topicRepository.save(topic);		
 		/*
 		for (int i=0;i<topics.size();i++) {

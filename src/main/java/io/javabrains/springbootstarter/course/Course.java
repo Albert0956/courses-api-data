@@ -17,7 +17,6 @@ public class Course {
 	private Topic topic;
 	
 	public Course() {
-
 	}	
 	
 	public Course(String id, String name, String description, String topicId) {
@@ -25,7 +24,7 @@ public class Course {
 		this.id = id;
 		this.name = name;
 		this.description = description;
-		this.setTopic(new Topic(topicId, "", ""));
+		this.setTopic(new Topic(topicId, "", 0, ""));
 	}
 	
 	public String getId() {
